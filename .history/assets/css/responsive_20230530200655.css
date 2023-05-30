@@ -7,6 +7,10 @@
 
 @media (max-width:63.9375em) and (min-width:46.25em) {
 
+    /* #help .help-main .help-text {
+        display: none;
+    } */
+
 
     body {
         margin: 25px;
@@ -178,20 +182,9 @@
     }
 
     .footer-top-container .rowlist li {
+        display: inline-block;
+        height: 69px;
         line-height: 2.3rem;
-        display: inline-table;
-    }
-
-    #footer .footer-bottom {
-        margin: 0;
-    }
-
-    .ft-bootom-left {
-        width: 44rem;
-    }
-
-    .ft-bootom-right {
-        margin: 0;
     }
 
 

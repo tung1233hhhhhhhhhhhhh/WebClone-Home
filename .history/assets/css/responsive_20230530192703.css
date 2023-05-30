@@ -7,7 +7,6 @@
 
 @media (max-width:63.9375em) and (min-width:46.25em) {
 
-
     body {
         margin: 25px;
     }
@@ -97,20 +96,11 @@
 
     /*residence  */
 
-    #residence {
-        height: 820px;
-    }
+    #residence {}
 
-    #residence .container,
-    #testimonial .container,
-    #about-us .container {
+    #residence .container {
         padding: 0;
         margin: 0;
-    }
-
-    #residence .container .text-residence {
-        text-align: center;
-        margin-bottom: 1em;
     }
 
     .wrapper-residence .box-slide {
@@ -125,74 +115,7 @@
 
     }
 
-    .card-text .card-logo ul {
-        justify-content: center;
-    }
 
-    /* about-us */
-
-
-    #about-us .container .main>h2 {
-        margin-bottom: 1em;
-    }
-
-    /*testimonial  */
-
-
-    .testimonial-main .slide-list {
-        width: 100%;
-
-    }
-
-    .testimonial-main .slide-content .slide-box {
-        padding: 0 12px;
-        margin: 0 1em;
-    }
-
-    #help .container {
-        margin: 0;
-        padding: 0;
-    }
-
-    #help .help-main {
-        flex-direction: column;
-    }
-
-    #help .help-main .help-img {
-        justify-content: center;
-
-        display: flex;
-        width: 100%;
-
-    }
-
-    #help .help-main .help-text {
-        width: 100%;
-        margin-top: 2em;
-    }
-
-    /* footer */
-
-    #footer .footer-top {
-        margin: 0;
-    }
-
-    .footer-top-container .rowlist li {
-        line-height: 2.3rem;
-        display: inline-table;
-    }
-
-    #footer .footer-bottom {
-        margin: 0;
-    }
-
-    .ft-bootom-left {
-        width: 44rem;
-    }
-
-    .ft-bootom-right {
-        margin: 0;
-    }
 
 
 

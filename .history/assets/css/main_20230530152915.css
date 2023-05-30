@@ -204,7 +204,6 @@ body {
     padding: 0 10px;
     font-size: 1rem;
     font-weight: 400;
-
 }
 
 .navbar-billboard .billboard-select,
@@ -213,7 +212,6 @@ body {
     border-right: 1px solid #ccc;
     line-height: 87px;
     width: 200px;
-    background-color: white;
 }
 
 .navbar-billboard .billboard-btn {
@@ -602,7 +600,7 @@ body {
 
 #help {
     width: 100%;
-    /* height: 487px; */
+    height: 487px;
 }
 
 #help .container {
@@ -668,7 +666,7 @@ body {
 
 #start {
     width: 100%;
-    /* height: 412px; */
+    height: 412px;
 }
 
 #start .container {

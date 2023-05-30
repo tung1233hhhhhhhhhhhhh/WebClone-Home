@@ -1,0 +1,53 @@
+/* Tablet and Mobile */
+
+@media (max-width:63.9375em) {}
+
+
+/* Tablet */
+
+@media (max-width:63.9375em) and (min-width:46.25em) {
+
+    body {
+        margin: 25px;
+    }
+
+    #hearder .nav-list {
+        display: none;
+    }
+
+
+    /* #hearder .nav-brand {
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+
+    #hearder .nav-list {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    #hearder .nav-list>li {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #hearder .nav-btn-signup {
+        margin-left: 10px;
+    }
+
+    #billboard .container {
+        margin: 0 30px;
+    }
+
+    #billboard .main .billboard-img {
+        height: 421px;
+    }
+
+    #billboard .container .billboard-text {
+        padding: 0 10px;
+    } */
+}
+
+/* Mobile */
+
+@media (max-width:46.1875em) {}
