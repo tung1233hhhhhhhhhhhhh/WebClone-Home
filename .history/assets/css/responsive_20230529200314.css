@@ -1,0 +1,22 @@
+@media (min-width:1024px) {
+    #hearder .nav-brand {
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+
+    #hearder .nav-list {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    #hearder .nav-list>li {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #hearder .nav-btn-signup {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width:800px) {}

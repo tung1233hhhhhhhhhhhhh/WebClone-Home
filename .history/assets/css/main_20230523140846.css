@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6em;
+    color: var(--body-text-color);
+    background-color: var(--dark-color);
+}
+
+
+#hearder {
+    width: 100%;
+    height: 73px;
+    padding: 8px 0;
+
+}
+
+#hearder .nav {
+    max-width: 1536px;
+    height: 73px;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hearder .nav-brand {
+    display: inline;
+}
+
+#hearder .nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#hearder .nav-list li {
+    flex-direction: column;
+    list-style: none;
+}

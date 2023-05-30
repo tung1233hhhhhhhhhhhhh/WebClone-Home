@@ -1,0 +1,7 @@
+@media (min-width:1024px) {
+    #hearder .nav-brand {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width:800px) {}
