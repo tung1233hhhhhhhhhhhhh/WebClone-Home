@@ -369,10 +369,6 @@
         margin: 1em;
     }
 
-    .residence-btn button {
-        padding: 1em;
-    }
-
     /* about-us */
 
     #about-us .container {
@@ -387,10 +383,6 @@
 
     #about-us .main .about-content {
         flex-direction: column;
-    }
-
-    #about-us .main>h2 {
-        height: auto;
     }
 
     #about-us .about-content .about-box {
@@ -437,10 +429,6 @@
         flex-direction: column;
         text-align: justify;
         padding: 0;
-    }
-
-    #help .help-text>h2 {
-        text-align: center;
     }
 
     #help .help-text>button {
@@ -499,11 +487,6 @@
         margin: 0;
     }
 
-    .footer-top-container .row1 {
-        width: 100%;
-    }
-
-
     #footer .footer-top .footer-top-container {
         padding: 1em 0;
         flex-direction: column;
@@ -514,7 +497,6 @@
         /* height: 62.4px; */
         flex-direction: column;
         margin: 0;
-        height: auto;
     }
 
     .ft-bootom-right {

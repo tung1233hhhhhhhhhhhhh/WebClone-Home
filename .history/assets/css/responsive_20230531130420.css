@@ -1,0 +1,206 @@
+/* Tablet and Mobile */
+
+@media (max-width:63.9375em) {}
+
+
+/* Tablet */
+
+@media (max-width:63.9375em) and (min-width:46.25em) {
+
+
+    body {
+        margin: 25px;
+    }
+
+    #hearder .nav-list {
+        display: none;
+    }
+
+    #hearder .nav-brand {
+        margin-left: 20px;
+    }
+
+    #hearder .navbar {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        margin-right: 1.5em;
+    }
+
+    /* billboard */
+
+    #billboard {
+        height: 23rem;
+    }
+
+    #billboard .container {
+        margin: 0;
+    }
+
+    #billboard .container .billboard-text>h1 {
+        font-size: 2.5em;
+    }
+
+    #billboard .container .billboard-text>p {
+        font-size: 1rem;
+    }
+
+    #billboard .main .billboard-img {
+        height: 23rem;
+    }
+
+    #billboard .navbar-billboard .container-billboard {
+        flex-wrap: inherit;
+        align-items: center;
+        width: 27em;
+        height: 4.5rem;
+    }
+
+    .navbar-billboard .billboard-select,
+    .billboard-btn {
+        width: 7em;
+    }
+
+    .navbar-billboard .form-select {
+        font-size: 1rem;
+        transform: translateY(-7px);
+    }
+
+    .navbar-billboard .billboard-btn .btn-select {
+        height: 89%;
+        margin-left: 5px;
+        transform: translateY(-8px);
+        font-size: 1rem;
+    }
+
+    /* feature */
+
+    #feature {
+        height: 13rem;
+
+    }
+
+    #feature .container {
+        margin: 0 auto;
+
+    }
+
+    #feature .feature-logo {
+        margin-right: 2em;
+
+    }
+
+    #feature .feature-logo>img {
+        width: 6em;
+    }
+
+    /*residence  */
+
+    #residence {
+        height: 820px;
+    }
+
+    #residence .container,
+    #testimonial .container,
+    #about-us .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    #residence .container .text-residence {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .wrapper-residence .box-slide {
+        width: 100%;
+    }
+
+    #residence .box-slide .card {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .card-text .card-logo ul {
+        justify-content: center;
+    }
+
+    /* about-us */
+
+
+    #about-us .container .main>h2 {
+        margin-bottom: 1em;
+    }
+
+    /*testimonial  */
+
+
+    .testimonial-main .slide-list {
+        width: 100%;
+
+    }
+
+    .testimonial-main .slide-content .slide-box {
+        padding: 0 12px;
+        margin: 0 1em;
+    }
+
+    #help .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #help .help-main {
+        flex-direction: column;
+    }
+
+    #help .help-main .help-img {
+        justify-content: center;
+
+        display: flex;
+        width: 100%;
+
+    }
+
+    #help .help-main .help-text {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    /* footer */
+
+    #footer .footer-top {
+        margin: 0;
+    }
+
+    .footer-top-container .rowlist li {
+        line-height: 2.3rem;
+        display: inline-table;
+    }
+
+    #footer .footer-bottom {
+        margin: 0;
+    }
+
+    .ft-bootom-left {
+        width: 44rem;
+    }
+
+    .ft-bootom-right {
+        margin: 0;
+    }
+
+
+
+
+}
+
+/* Mobile */
+
+@media (max-width:46.1875em) {
+    
+}

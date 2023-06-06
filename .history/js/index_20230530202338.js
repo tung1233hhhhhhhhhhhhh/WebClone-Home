@@ -1,12 +1,10 @@
-// slide testimonial
-
 window.addEventListener("load", function () {
   const sliderMain = document.querySelector(".testimonial-wrapper");
   const sliderItems = document.querySelectorAll(".slide-list");
   const prevTestimonial = document.querySelector(".testimonial-prev");
   const nextTestimonial = document.querySelector(".testimonial-next");
-  const sliderItemWidth = sliderItems[0].offsetWidth;
-  // const sliderItemWidth = 1329;
+  //   const sliderItemWidth = sliderItems[0].offsetWidth;
+  const sliderItemWidth = 1329;
   const sliderLength = sliderItems.length;
   let postionX = 0;
   let index = 0;
@@ -33,7 +31,6 @@ window.addEventListener("load", function () {
   }
 });
 
-// slide residence
 window.addEventListener("load", function () {
   const tiprev = document.querySelector(".ti-angle-left");
   const sliderMain = document.querySelector(".wrapper-residence");
@@ -42,12 +39,13 @@ window.addEventListener("load", function () {
   const nextResidence = document.querySelector(".btn-next");
   const sliderItemWidth = sliderItems[0].offsetWidth;
   // const sliderItemWidth = 442;
-  console.log(sliderItemWidth);
   const sliderLength = sliderItems.length - 2;
   let postionX = 0;
   let index = 0;
+
   nextResidence.addEventListener("click", function () {
     handleChangeSlide(1);
+    console.log(sliderItemWidth);
   });
   prevResidence.addEventListener("click", function () {
     handleChangeSlide(-1);

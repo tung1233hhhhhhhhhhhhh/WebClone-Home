@@ -369,10 +369,6 @@
         margin: 1em;
     }
 
-    .residence-btn button {
-        padding: 1em;
-    }
-
     /* about-us */
 
     #about-us .container {
@@ -387,10 +383,6 @@
 
     #about-us .main .about-content {
         flex-direction: column;
-    }
-
-    #about-us .main>h2 {
-        height: auto;
     }
 
     #about-us .about-content .about-box {

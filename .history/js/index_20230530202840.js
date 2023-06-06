@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
   const nextTestimonial = document.querySelector(".testimonial-next");
   const sliderItemWidth = sliderItems[0].offsetWidth;
   // const sliderItemWidth = 1329;
+  console.log(sliderItemWidth);
   const sliderLength = sliderItems.length;
   let postionX = 0;
   let index = 0;
@@ -40,9 +41,8 @@ window.addEventListener("load", function () {
   const sliderItems = document.querySelectorAll(".box-slide");
   const prevResidence = document.querySelector(".btn-prev");
   const nextResidence = document.querySelector(".btn-next");
-  const sliderItemWidth = sliderItems[0].offsetWidth;
-  // const sliderItemWidth = 442;
-  console.log(sliderItemWidth);
+  // const sliderItemWidth = sliderItems[0].offsetWidth;
+  const sliderItemWidth = 442;
   const sliderLength = sliderItems.length - 2;
   let postionX = 0;
   let index = 0;

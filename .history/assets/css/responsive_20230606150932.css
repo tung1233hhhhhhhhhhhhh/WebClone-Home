@@ -389,10 +389,6 @@
         flex-direction: column;
     }
 
-    #about-us .main>h2 {
-        height: auto;
-    }
-
     #about-us .about-content .about-box {
         width: 100%;
     }

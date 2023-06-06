@@ -145,7 +145,7 @@ body {
 
 #billboard {
     width: 100%;
-    /* height: 586px; */
+    height: 586px;
     margin-top: 47px;
     margin-bottom: 80px;
 }
@@ -194,7 +194,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 123%;
-    /* height: 87px; */
+    height: 87px;
     z-index: 1;
 }
 
@@ -251,7 +251,7 @@ body {
 /* feature */
 
 #feature {
-    /* height: 267px; */
+    height: 267px;
 
 }
 
@@ -284,7 +284,7 @@ body {
 
 #residence {
     width: 100%;
-    /* height: 893px; */
+    height: 893px;
     background: url("/assets/img/residence.png") center / cover no-repeat;
     position: relative;
 }
@@ -358,7 +358,7 @@ body {
 
 #residence .wrapper-residence {
     width: 100%;
-    /* height: 472px; */
+    height: 472px;
     display: flex;
     position: relative;
     z-index: 1;
@@ -434,7 +434,7 @@ body {
 /* about-us */
 
 #about-us {
-    /* height: 581px; */
+    height: 581px;
     width: 100%;
 }
 
@@ -459,7 +459,6 @@ body {
     text-transform: capitalize;
     text-align: center;
     margin: 0 auto;
-    line-height: 1em;
 }
 
 #about-us .main .about-content {
@@ -622,7 +621,7 @@ body {
 
 #help .help-main .help-img {
     width: 39.75em;
-    /* height: 486px; */
+    height: 486px;
 }
 
 #help .help-main .help-img>img {
@@ -643,7 +642,7 @@ body {
 }
 
 #help .help-text>h2 {
-    /* height: 115px; */
+    height: 115px;
     text-transform: capitalize;
     font-size: 48px;
     font-weight: 600;
@@ -701,7 +700,7 @@ body {
 }
 
 #start .start-main .start-right {
-    /* width: 764px; */
+    width: 764px;
     height: 100%;
     /* padding: 0 12px; */
     padding-right: 12px;
@@ -729,14 +728,14 @@ body {
 
 #footer {
     width: 100%;
-    /* height: 488px; */
+    height: 488px;
     background-color: #1A242F;
 }
 
 #footer .footer-top {
     padding: 0 12px;
     margin: 0 6.25rem;
-    /* height: 425px; */
+    height: 425px;
 
 }
 

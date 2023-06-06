@@ -459,7 +459,6 @@ body {
     text-transform: capitalize;
     text-align: center;
     margin: 0 auto;
-    line-height: 1em;
 }
 
 #about-us .main .about-content {
@@ -643,7 +642,7 @@ body {
 }
 
 #help .help-text>h2 {
-    /* height: 115px; */
+    height: 115px;
     text-transform: capitalize;
     font-size: 48px;
     font-weight: 600;
